@@ -1,28 +1,45 @@
 #styler{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: end;
+    align-items: center;
     gap: 5px;
     flex-wrap: wrap;
+    padding: 10px;
 }
 #cc{
-    border: 1px solid black;
+    border: 1px hidden black;
     width: 100%;
-    height: 400px;
+    height: 500px;
+    
 }
 
 #styler div{
-    border: 1px solid black;
+    border: 1px hidden black;
     width: 30%;
-    height: 400px;
+    height: 500px;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+#mm{
+    border: 1px hidden rgb(75, 44, 44);
+    width: 100%;
+    height: 300px;
+    background-color: rgba(207, 192, 192, 0.377);
+    color: brown;
+    text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: larger;
+   padding-top: 40px;
 }
 #ss{
-    background-color: green;
+    /* background-color: green; */
 }
 #as{
-    background-color: white;
+    /* background-color: white; */
 }
 #aa{
-    background-color: green;
+    /* background-color: green; */
 }
